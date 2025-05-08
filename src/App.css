@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400;600&display=swap");
+
+/* @font-face {
+  font-family: 'Roboto Condensed';
+  src: url('./assets/fonts/SairaSemiCondensed-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+html {
+  scroll-behavior: initial;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* font family */
+  .font-saira ,.font-condensed{
+    font-family: 'Saira Condensed', sans-serif;
+  }
+  .font-roboto, .font-Roboto, .font-robotos{ 
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 420 !important;
+    font-size: 17px !important;
+  
+  }
+
+.error-message-font-roboto{
+  font-family: 'Roboto Condensed', sans-serif;
+  
+}
+  
+  .font-roboto-19{ 
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px !important;
+    font-weight: 450;
+
+  }
+
+  .font-roboto-18{ 
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px !important;
+    font-weight: 300;
+
+
+
+  }
+    .font-saira-semi-Condensed{
+      font-family: 'Saira Semi Condensed', sans-serif;
+
+    }
+
+    .font-saira-semi-Condensed-w700{
+      font-family: 'Saira Semi Condensed', sans-serif;
+font-weight: 700;
+    }
+    .font-18{
+      font-size: 18px;
+    }
+    .font-16{
+      font-size: 16px;
+    }
+    .font-20{
+      font-size: 20px;
+    }
+    .font-50{
+      font-size: 50px;
+    }
+    .font-70{
+      font-size: 70px;
+    }
+    /* end */
+  
+  /* text color */
+    
+  /*  */
+  
+  .content-color{
+    color: #FFFFFF;
+  }
+
+  .overflowX-hidden{
+  overflow-x: hidden;
+  }
+  @media (max-width: 966px) {
+    .font-roboto, .font-Roboto, .font-robotos{ 
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 16px !important;
+
+    }
+    .font-roboto-18{ 
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 16px !important;
+      font-weight: 280;
+  
+    }
+
+    .font-roboto-19{ 
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 16px !important;
+  
+    }
+
+
+  }

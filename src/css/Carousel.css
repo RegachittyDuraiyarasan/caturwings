@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400;600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* .body {
+  font-size: 20px;
+  font-family: Saira SemiCondensed;
+}
+.body.img {
+  padding: 5px;
+} */
+.font-semicond {
+  font-family: "Saira SemiCondensed", sans-serif;
+}
+#brand-carousel .border-line2 {
+  border-top: 1px solid BLACK;
+  width: 122px;
+}
+
+#brand-carousel .border-line3 {
+  border-top: 1px solid BLACK;
+  width: 122px;
+}
+.c_000000 {
+  color: #000000;
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  #brand-carousel .border-line2 {
+    width: 30px;
+  }
+  #brand-carousel .border-line3 {
+    width: 30px;
+  }
+}

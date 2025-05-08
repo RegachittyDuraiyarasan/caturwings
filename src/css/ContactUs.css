@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+.backgroundcolor{
+  background: hsla(0, 0%, 0%, 1);
+  width: auto;
+  height: 100vh;
+  
+}
+.color-white{
+  color: hsla(0, 0%, 100%, 1);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contact-btn{
+  border-radius: 20px;
+  color: black;
+  background-color: white;
+ 
+  border: none;
+}
+.call_btn img{
+  width: 18px;
+    margin-right: 10px;
+}
+.border-line{
+    border-top: 1px solid hsla(0, 0%, 100%, 1);
+    width: 122px;
+    /* margin-top: 19px;
+    margin-right: 29px; */
+}
+
+.border-line1{
+  border-top: 1px solid hsla(0, 0%, 100%, 1);
+  width: 122px;
+}
+.contact-bg{
+  background-image: url("../assets/images/contactus_img.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+.font-saira{
+  font-family: 'Saira SemiCondensed', sans-serif;
+}
+.font-Roboto{
+  font-family: 'Roboto', sans-serif; ;
+}

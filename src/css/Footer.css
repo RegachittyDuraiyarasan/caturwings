@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+ 
+.bg-color {
+    background-color: #000000;
+  }
+  .location-icon-footer{
+    width: 43px;
+    height: auto;
+  }
+  
+  .email-icon-footer{
+    width: 23px;
+    height: auto;
+  }
+
+  @media (min-width: 320px) and (max-width: 500px){
+   .footer-logo-algin{
+    margin-top: 93px;
+  }
+   
+  }
+
+  @media (max-width: 768px) {
+    .follow-us {
+      font-size: 18px;
+      
+    }
+    .follow-us-img {
+      width: 30px;
+      height: auto;
+    }
+    .expert{
+      padding: 16px 55px;
+    }
+  }
+
+  .drop-town {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .drop-town li {
+    margin-bottom: 10px;
+  }
+  
+  .drop-town li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .custom-btn {
+    border-color: #ffffff !important;
+    border-radius: 20px !important;
+    color: #000!important;
+    background-color: #ffffff !important;
+  }
+ 
+.copyright{
+  font-size: 18px;
+}
+  .expert{
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+    color: black;
+    padding: 0px 15px;
+    font-size: 19px;
+    background: linear-gradient(107deg, #FFFFFF 1.49%, rgba(0, 0, 0, 0.05) 305.72%);
+    border-radius: 15px;
+    display: flex;
+  }
+  .service{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    border-radius: 15px;
+  }
+  .bi-geo-alt{
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+  .bi-envelope{
+    font-size:25px;
+    color: #FFFFFF;
+  }
+  .fs-16{
+    font-size: 16px;
+    font-family: Roboto;
+  }
+  .fs-18 {
+    font-size: 18px;
+  }
+  .fw-600{
+    font-family: Roboto;
+    font-weight: bolder;
+  }
+  .footer_f{
+    padding-top: 136px;
+  }
+
+  @media (min-width: 992px) and (max-width: 1200px){
+    .f-cbtn{
+      display: block;
+      padding: 20px !important;
+    }
+  }
+
+  @media (max-width: 767px){
+    .expert {
+      padding: 2px 19px;
+      font-size: 19px;
+    }
+    .drop-town li {
+      margin-bottom: 10px;
+      padding-left: 16px;
+      font-size: 14px;
+  }
+  }
+  @media (max-width: 576px){
+    .mail{
+      padding-top: 20px;
+    }
+  }
+  

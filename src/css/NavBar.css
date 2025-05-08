@@ -1,0 +1,238 @@
+
+.navbar {
+  background-color: #ffffff;
+  border-radius: 3rem;
+  width: 87%;
+  max-width: 1300px;
+  padding: 10px 10px;
+  margin:  auto;
+  /* margin-top: 40px; */
+  transform: translateY(40px);
+  z-index: 1002;
+  
+}
+
+.mobile_nav {
+  position: relative;
+  left: 0;
+  width: 100%;
+  padding-top: 50px;
+  background-color: white;
+  border-radius: 50px;
+}
+.mobile_nav_active {
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  flex: 1;
+
+}
+
+.nav-link,
+.nav-enquirey {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Saira", sans-serif;
+  padding: 10px 20px;
+  border-radius: 28px;
+  font-size: 17px;
+}
+
+.nav-link:hover,
+.nav-enquirey {
+  background-color: #000000;
+  color: white;
+}
+
+.nav-mobile,
+.catur-wings-font {
+  font-family: "Saira", sans-serif;
+  font-weight: 20px;
+}
+.navbar-brand {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%, -72%);
+}
+
+
+.active {
+  background-color: #000000 !important;
+  color: white !important;
+
+  border-radius: 28px;
+
+
+}
+/* .nav-link:hover{
+    background-color: #000000 !important;
+    color: white !important;
+    border-radius: 30px !important;
+    transition: all 0.5s ease-in-out;
+} */
+
+.navbar-toggler {
+  border: none !important;
+}
+.navbar .show {
+  margin-top: 50px !important;
+  z-index: 100px;
+}
+.enquiry-icon {
+  display: none;
+}
+.navbar-toggler {
+  border: none; /* Remove the border */
+}
+.font-w{
+  font-weight:  30px;
+}
+
+/* Optional: If you want to remove the outline on focus */
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+
+@media (max-width: 966px) {
+  .brand_logo {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    width: 70%;
+  }
+
+  .nav-enquirey {
+    display: block;
+  }
+
+  .nav-enquirey span.enq-text {
+    display: none; 
+  }
+
+  .navbar {
+    justify-content: space-between;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+
+  }
+  .navbar-brand {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -78%);
+}
+}
+@media (max-width: 992px) {
+  .nav-contact a {
+    display: none;
+  }
+ 
+  .navbar-toggler{
+    display: block!important;
+  }
+  .enquiry-icon{
+    display: block;
+  }
+}
+@media (max-width: 1268px) {
+  .nav-link,.nav-enquirey,.nav-mobile{
+    padding-right:0px;
+    font-weight: 20px;
+    font-size: 13px;
+    width: max-content;
+    
+   }
+}
+@media (max-width: 1024px) {
+
+  .navbar {
+    background-color: #ffffff;
+    border-radius: 3rem;
+    width: 95%;
+    max-width: 1300px;
+    padding: 10px 10px;
+    margin:  auto;
+    /* margin-top: 40px; */
+    transform: translateY(40px);
+    z-index: 1002;
+    
+  }
+
+  .nav-list{
+    width: 100%;
+  }
+  .navbar-nav{
+    margin-right: 50px !important;
+  }
+  .navbar {
+    justify-content: space-between;
+    max-width: 950px;
+    padding: 10px;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100% !important;
+    text-align: center;
+    flex: 1;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .toggle-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px; /* Add margin to separate toggle button from nav-links */
+  }
+
+  .toggle-button div {
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 3px 0;
+    transition: all 0.3s ease;
+    background-color: #000000;
+    border-radius: 25px;
+  }
+
+  .nav-contact {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+  }
+.nav-mobile{
+  padding-left:120px;
+}
+.nav-enquirey{
+  padding-left:0px;
+}
+ .nav-link{
+  padding-right:0px;
+  font-weight: 20px;
+  font-size: 13px;
+  width: max-content;
+ }
+  .logo {
+    margin-top: 0;
+  }
+
+  .logo img {
+    position: absolute;
+   
+  }
+ 
+
+}
